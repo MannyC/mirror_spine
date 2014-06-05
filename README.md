@@ -9,7 +9,7 @@ The instructions alter files in place, so run on a backup.
 ## Instructions (linux based, should be easy enough to alter for Windows)
 
 1. You'll need git, imagemagick and node.
-2. Clone this repository *git clone https://github.com/MannyC/mirror_spine.git*
+2. Clone this repository **git clone https://github.com/MannyC/mirror_spine.git**
 3. In repository directory: **npm install**
 4. Use Spine to export the json for the file you want to flip
 5. **node spine\_mirror.js spine\_export\_file.json > output\_file\_name.json**

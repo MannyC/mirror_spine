@@ -3,7 +3,7 @@
 var fs = require('fs');
 var _ = require('lodash');
 
-if(process.argv.length < 2){
+if(process.argv.length < 3){
   console.error('USAGE: ' + process.argv[1] + ' <spine_json>');
 }
 
