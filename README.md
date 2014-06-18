@@ -1,5 +1,7 @@
 # spine_mirror
 
+## it turns out this will invert the bones, so although it will look and animate correctly the bones will be in the wrong position.  The fix is to work your way up the bone chain so that you know the orientation of each bone but I'm not willing to rewrite it right now. 
+
 Node script to flip a spine file horizontally.  Only tested to the "works for me" stage.
 
 Simply inverts all x coordinates and rotation/angle properties
